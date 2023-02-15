@@ -1,11 +1,79 @@
+
+body{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
 .navbar{
-text-align: end;
+  margin: 0;
+  background-color: #008E89;
 
 
+  @include media-breakpoint-up(lg) {
+    ul{
+    margin-left: 555px;
+   }
+  }
+  
+  li{
+    float: left;
+    padding-left: 16px;
+  }
+  li a{
+    display: block;
+    font-size: 20px;
+    color: #ffffff;
+    
+  }
 
-  .nav-item{
-    display:inline;
-    float:left;
-    color:red;
+  .navbar-brand{
+    font-weight: 600;
+    font-size: 24px;
+  }
+
+  .forum{
+    font-weight: 600;
+
+  }
+}
+
+.carousel{
+
+  margin-top: 100px;
+  img{
+    width: 100%;
+    height:600px;
+    
+  }
+}
+
+.aboutMe{
+
+  margin-top: 72px;
+  h2{
+    font-size: 28px;
+    color: #151D3B;
+    font-weight: 600;
+    text-align: center;
+  }
+  p{
+    font-size: 18px;
+    color: #797a80;
+    text-align: justify;
+    margin-top: 28px;
+  }
+}
+
+.footer{
+  margin-top:72px;
+  font-size: 20px;
+  background-color: #008E89 ;
+  padding: 10px;
+  color: #ffffff;
+
+  .copyright{
+    margin-top: 200px;
+    margin-bottom: -50px;
   }
 }
