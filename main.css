@@ -11752,6 +11752,13 @@ body {
 }
 .navbar .forum {
   font-weight: 600;
+  background-color: #10A19D;
+  color: #ffffff;
+  border-radius: 22px;
+}
+.navbar .forum:hover {
+  background-color: #FFF6BF;
+  color: #10A19D;
 }
 
 .carousel {
@@ -11763,10 +11770,10 @@ body {
 }
 
 .aboutMe {
-  margin-top: 72px;
+  margin-top: 200px;
 }
 .aboutMe h2, .aboutMe .h2 {
-  font-size: 28px;
+  font-size: 32px;
   color: #151D3B;
   font-weight: 600;
   text-align: center;
@@ -11788,4 +11795,57 @@ body {
 .footer .copyright {
   margin-top: 200px;
   margin-bottom: -50px;
+}
+
+.event {
+  background-color: #EFF5F5;
+}
+.event h2, .event .h2 {
+  font-size: 32px;
+  color: #151D3B;
+  font-weight: 600;
+  text-align: center;
+  margin-top: -100px;
+  margin-bottom: 100px;
+}
+
+.card {
+  position: relative;
+  margin-bottom: 100px;
+  margin-top: -50px;
+}
+.card .card-title {
+  font-size: 20px;
+  color: #151D3B;
+  font-weight: 600;
+  text-align: start;
+}
+.card .card-text {
+  font-size: 16px;
+  color: #797a80;
+}
+.card a {
+  font-size: 16px;
+  color: #ffffff;
+}
+.card span {
+  font-size: 16px;
+  color: #797a80;
+}
+.card img {
+  border-radius: 5px 5px 0px 0px;
+}
+.card .btn {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.card::before {
+  content: "Online";
+  position: absolute;
+  padding: 10px;
+  background: transparent;
+  background-color: #151D3B;
+  color: white;
+  border-radius: 5px 0px 22px 0px;
 }/*# sourceMappingURL=main.css.map */

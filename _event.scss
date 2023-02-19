@@ -1,0 +1,56 @@
+
+.event{
+
+    background-color: #EFF5F5;
+
+     h2{
+    font-size: 32px;
+    color: #151D3B;
+    font-weight: 600;
+    text-align: center;
+    margin-top: -100px;
+    margin-bottom:100px;
+  }
+}
+.card{
+    position:relative;
+    margin-bottom: 100px;
+    margin-top: -50px;
+  .card-title{
+    font-size: 20px;
+    color:#151D3B;
+    font-weight:600;
+    text-align: start;
+  }
+  .card-text{
+    font-size: 16px;
+    color: #797a80;
+  }
+  a{
+    font-size: 16px;
+    color: #ffffff;
+  }
+  span{
+    font-size: 16px;
+    color:#797a80;
+  }
+  img{
+    border-radius: 5px 5px 0px 0px;
+  }
+  .btn{
+    font-size: 18px;
+    font-weight: 600;
+  }
+}
+
+.card::before {
+    
+    content: "Online";
+    position:absolute;
+    padding: 10px;
+    background: transparent;
+    background-color: #151D3B;
+    color: white;
+    border-radius: 5px 0px 22px 0px;
+    
+}
