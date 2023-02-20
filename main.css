@@ -11840,12 +11840,17 @@ body {
   font-weight: 600;
 }
 
-.card::before {
-  content: "Online";
-  position: absolute;
-  padding: 10px;
-  background: transparent;
-  background-color: #151D3B;
-  color: white;
-  border-radius: 5px 0px 22px 0px;
+.article h2, .article .h2 {
+  font-size: 32px;
+  color: #151D3B;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.article .card {
+  margin-top: 50px;
+}
+.article .card-2 {
+  margin-top: -40px;
 }/*# sourceMappingURL=main.css.map */
