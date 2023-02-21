@@ -8,10 +8,11 @@
     color: #151D3B;
     font-weight: 600;
     text-align: center;
-    margin-top: -100px;
+    margin-top: 0;
     margin-bottom:100px;
   }
 }
+
 .card{
     position:relative;
     margin-bottom: 100px;
@@ -34,12 +35,28 @@
     font-size: 16px;
     color:#797a80;
   }
-  img{
+  .img-event{
+    margin-top: 50px;
     border-radius: 5px 5px 0px 0px;
   }
   .btn{
     font-size: 18px;
     font-weight: 600;
+  }
+
+  .btn-location{
+    z-index: 1;
+    margin-top: -296px;
+    margin-left: -20px;
+    position: absolute;
+    width: 100px;
+    height: auto;
+    padding: 10px;
+    background-color: #151D3B;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 0px 0px 10px 0px;
   }
 }
 
