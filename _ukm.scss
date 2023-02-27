@@ -1,0 +1,55 @@
+.ukm{
+    h2{
+   font-size: 32px;
+    color: #151D3B;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 100PX;
+    margin-bottom:80px;
+      
+   }
+    .card{
+        box-shadow: #444752  2px 3px 15px ;
+        position:relative;
+        overflow: hidden;
+        border-radius: 15px;
+        background: #07182E;
+
+
+        
+    }
+    .card::before{
+        position: absolute;
+        content: '';
+        background-image: linear-gradient(180deg, #e55d87, #008E89);
+        width: 130%;
+        height:300px;
+        display: flex;
+        place-content: center;
+        align-items: center;
+        animation: border 5s linear infinite;
+        transition: all 1s linear;
+        left: -10px;
+
+    }
+    @keyframes border {
+        from{
+            transform:rotate(0deg);
+        }
+        to{
+            transform: rotate(360deg);
+        }
+        
+    }
+    .card::after{
+        content: '';
+        position: absolute;
+        background: #07182E;
+        inset: 5px;
+        border-radius: 15px;
+    }
+    .card-body{
+        z-index: 1;
+    }
+  
+}
