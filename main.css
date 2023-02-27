@@ -11746,6 +11746,25 @@ body {
   font-size: 20px;
   color: #ffffff;
 }
+.navbar .animation-link {
+  position: relative;
+}
+.navbar .animation-link::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 5px;
+  background-color: #151D3B;
+  transition: 0.5s;
+  border-radius: 15px;
+}
+.navbar .animation-link::before {
+  left: 0;
+  bottom: -4px;
+}
+.navbar .animation-link:hover::before {
+  width: 100%;
+}
 .navbar .navbar-brand {
   font-weight: 600;
   font-size: 24px;
@@ -11796,6 +11815,11 @@ body {
 .footer .copyright {
   margin-top: 200px;
   margin-bottom: -50px;
+}
+.footer a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 600;
 }
 
 .event {
