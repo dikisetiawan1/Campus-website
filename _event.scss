@@ -58,5 +58,15 @@
     text-align: center;
     border-radius: 0px 0px 10px 0px;
   }
+  @media screen and (max-width:750px) {
+    .img-event{
+      margin-top: 0;
+
+    }
+    .btn-location{
+      margin-top: -360px;
+    }
+    
+  }
 }
 

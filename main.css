@@ -11879,6 +11879,14 @@ body {
   text-align: center;
   border-radius: 0px 0px 10px 0px;
 }
+@media screen and (max-width: 750px) {
+  .card .img-event {
+    margin-top: 0;
+  }
+  .card .btn-location {
+    margin-top: -360px;
+  }
+}
 
 .article h2, .article .h2 {
   font-size: 32px;
@@ -11895,12 +11903,19 @@ body {
   margin-top: -40px;
 }
 
+.ukm {
+  background-color: #EFF5F5;
+  margin-top: -100px;
+}
+.ukm a {
+  text-decoration: none;
+}
 .ukm h2, .ukm .h2 {
   font-size: 32px;
   color: #151D3B;
   font-weight: 600;
   text-align: center;
-  margin-top: 100PX;
+  margin-top: 40PX;
   margin-bottom: 80px;
 }
 .ukm .card {
@@ -11909,6 +11924,11 @@ body {
   overflow: hidden;
   border-radius: 15px;
   background: #07182E;
+  transition: 2s;
+  top: 0px;
+}
+.ukm .card:hover {
+  top: -30px;
 }
 .ukm .card::before {
   position: absolute;

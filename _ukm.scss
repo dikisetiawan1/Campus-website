@@ -1,10 +1,17 @@
 .ukm{
+    background-color: #EFF5F5;
+    margin-top: -100px;
+    a{
+        text-decoration: none;
+    }
+
+
     h2{
    font-size: 32px;
     color: #151D3B;
     font-weight: 600;
     text-align: center;
-    margin-top: 100PX;
+    margin-top: 40PX;
     margin-bottom:80px;
       
    }
@@ -14,7 +21,14 @@
         overflow: hidden;
         border-radius: 15px;
         background: #07182E;
+     transition:2s;
+     top: 0px;
+    }
 
+
+    .card:hover{
+top:-30px
+    
 
         
     }
