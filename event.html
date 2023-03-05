@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Information BEM Unperti</title>
+    <link rel="stylesheet" href="main.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-fixed-top fixed-top">
+      <div class="container p-2">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a href="#" class="navbar-brand logo text-white text-sm-center"
+            >BEM UNPERTI</a
+          >
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item active">
+              <a href="index.html" class="nav-link animation-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#event" class="nav-link animation-link active">Event</a>
+            </li>
+            <li class="nav-item">
+              <a href="#ukm" class="nav-link animation-link">UKM</a>
+            </li>
+            <li class="dropdown">
+              <a
+                class="nav-link animation-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Structure
+              </a>
+              <ul
+                class="dropdown-menu dropdown-menu-dark m-lg-0"
+                aria-labelledby="navbarDropdown"
+              >
+                <li><a class="dropdown-item" href="#">visi & misi</a></li>
+                <li><a class="dropdown-item" href="#article">Article</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Structure Organization</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="/forum.html" class="nav-link px-4 py-2 forum">forum</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Detail events -->
+
+    <div class="section-event-detail mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="card shadow">
+              <div class="img-event-detail">
+                <img src="assets/img/event2.jpg" class="w-100" alt="event1" />
+              </div>
+              <div class="card-title-details">
+                <h2>Seminar Menjadi Job Seeker Super</h2>
+              </div>
+              <div class="card-text-details">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit
+                odio incidunt reiciendis cum nam et, earum quia ipsum similique,
+                soluta vel non, voluptas sed reprehenderit porro consectetur
+                totam! Exercitationem perspiciatis saepe sed eveniet temporibus
+                asperiores tempore laborum, delectus et nesciunt. Doloremque
+                dolorem iste magni, ut pariatur voluptate fugiat optio adipisci
+                aut reiciendis possimus iusto eveniet veritatis? Ullam facilis
+                consequatur at veniam velit! Maxime perspiciatis totam
+                perferendis tempore minima sequi officiis.
+              </div>
+              <div class="card-speaker">
+                <h5>Pembicara</h5>
+                <p>Diki Setiawan,S.kom</p>
+              </div>
+              <div class="card-price">
+                <h5>Biaya</h5>
+                <p><del>Rp. 120.000</del> <span>GRATIS!</span></p>
+              </div>
+              <div class="card-location">
+                <h5>Lokasi</h5>
+
+                <p>
+                  <i class="fa-solid fa-location-dot"></i> Aula Universitas
+                  Pertiwi Karawang
+                </p>
+              </div>
+              <div class="border-line"></div>
+              <div class="form">
+                <h2 class="mt-5 text-center">Form Pendaftaran</h2>
+                <form action="">
+                  <div class="row">
+                    <div class="col-6 p-5">
+                      <label for="name">Name</label>
+                      <input
+                        type="text"
+                        name="name"
+                        id="name"
+                        class="form-control"
+                      />
+                      <label for="email">Email</label>
+                      <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        class="form-control"
+                      />
+                      <label for="nim">Nim</label>
+                      <input
+                        type="text"
+                        name="nim"
+                        id="nim"
+                        class="form-control"
+                      />
+                    </div>
+                    <div class="col-6 p-5">
+                      <label for="jurusan">Jurusan</label>
+                      <select name="jurusan" id="jurusan" class="form-control">
+                        <option value="null">--Pilih Jurusan--</option>
+                        <option value="manajemen">Manajemen</option>
+                        <option value="akuntansi">Akuntansi</option>
+                        <option value="informatika">Informatika</option>
+                        <option value="dkv">Desain Komunikasi Visual</option>
+                        <option value="sistem-informasi">
+                          Sistem informasi
+                        </option>
+                      </select>
+                      <label for="kampus">Lokasi Kampus</label>
+                      <select name="kampus" id="kampus" class="form-control">
+                        <option value="null">--Pilih Lokasi Kampus--</option>
+                        <option value="Karawang">Karawang</option>
+                        <option value="Cikarang">Cikarang</option>
+                        <option value="Bekasi">Bekasi</option>
+                        <option value="Cililtan">
+                          Desain Komunikasi Visual
+                        </option>
+                        <option value="Koja">Koja</option>
+                      </select>
+                      <label for="pesan">Alasan ikut event ini</label>
+                      <textarea name="pesan" id="pesan" class="form-control">
+                      </textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">
+                      Daftar
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- section img event detail -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+
+    <!-- footer -->
+    <div class="footer">
+      <div class="container p-5">
+        <div class="row">
+          <div class="col-lg-3 col-12">
+            <div class="logo text-white"><a href="#"> BEM UNPERTI</a></div>
+          </div>
+          <div class="col-lg-3 col-12">
+            <ul class="navbar-nav text-center">
+              <li class="nav-item">instagram</li>
+              <li class="nav-item">Facebook</li>
+              <li class="nav-item"></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-12">
+            <ul class="navbar-nav text-center">
+              <li class="nav-item">instagram</li>
+              <li class="nav-item">Facebook</li>
+              <li class="nav-item"></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-12">
+            <ul class="navbar-nav text-center">
+              <li class="nav-item">instagram</li>
+              <li class="nav-item">Facebook</li>
+              <li class="nav-item"></li>
+            </ul>
+          </div>
+        </div>
+        <p class="text-white text-center copyright">
+          Copyright @BemUnperti 2023
+        </p>
+      </div>
+    </div>
+
+    <script>
+      AOS.init();
+    </script>
+    <script src="./vendor/js/bootstrap.js"></script>
+  </body>
+</html>

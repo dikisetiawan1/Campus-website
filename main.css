@@ -11888,6 +11888,81 @@ body {
   }
 }
 
+.section-event-detail {
+  margin-top: 100px;
+}
+.section-event-detail .img-event-detail img {
+  border-radius: 20px;
+  padding: 28px;
+}
+.section-event-detail h2, .section-event-detail .h2 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #151D3B;
+  padding-left: 20px;
+}
+.section-event-detail .card-text-details {
+  font-size: 16px;
+  color: #797a80;
+  padding: 10px 20px 15px 20px;
+}
+.section-event-detail .card {
+  margin-top: 100px;
+}
+.section-event-detail .card-speaker {
+  margin-left: 20px;
+}
+.section-event-detail .card-speaker h5, .section-event-detail .card-speaker .h5 {
+  font-size: 18px;
+  color: #151D3B;
+  font-weight: 600;
+}
+.section-event-detail .card-speaker p {
+  font-size: 14px;
+  color: #848896;
+}
+.section-event-detail .card-price {
+  margin-left: 20px;
+}
+.section-event-detail .card-price h5, .section-event-detail .card-price .h5 {
+  font-size: 18px;
+  color: #151D3B;
+  font-weight: 600;
+}
+.section-event-detail .card-price p {
+  font-size: 14px;
+  color: red;
+}
+.section-event-detail .card-price span {
+  color: green;
+  font-size: 16px;
+  font-weight: 600;
+}
+.section-event-detail .card-location {
+  margin-left: 20px;
+}
+.section-event-detail .card-location h5, .section-event-detail .card-location .h5 {
+  font-size: 18px;
+  color: #151D3B;
+  font-weight: 600;
+}
+.section-event-detail .card-location p {
+  font-size: 14px;
+  color: #848896;
+}
+.section-event-detail .form label {
+  font-size: 16px;
+  color: #797a80;
+  padding-bottom: 5px;
+  padding-top: 10px;
+}
+.section-event-detail .border-line {
+  width: 100%;
+  height: 1px;
+  background: #d4d5da;
+  margin-top: 20px;
+}
+
 .article h2, .article .h2 {
   font-size: 32px;
   color: #151D3B;
