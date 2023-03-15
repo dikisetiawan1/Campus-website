@@ -11778,7 +11778,6 @@ body {
 .navbar .forum:hover {
   background-color: #FFF6BF;
   color: #10A19D;
-  animation-delay: 2s;
 }
 
 .carousel {
@@ -11893,24 +11892,25 @@ body {
 }
 .section-event-detail .img-event-detail img {
   border-radius: 20px;
-  padding: 28px;
+  padding: 50px;
 }
 .section-event-detail h2, .section-event-detail .h2 {
   font-size: 28px;
   font-weight: 600;
   color: #151D3B;
-  padding-left: 20px;
+  padding: 50px;
 }
 .section-event-detail .card-text-details {
   font-size: 16px;
   color: #797a80;
-  padding: 10px 20px 15px 20px;
+  padding: 10px 50px 15px 50px;
 }
 .section-event-detail .card {
   margin-top: 100px;
 }
 .section-event-detail .card-speaker {
-  margin-left: 20px;
+  margin-left: 50px;
+  margin-top: 20px;
 }
 .section-event-detail .card-speaker h5, .section-event-detail .card-speaker .h5 {
   font-size: 18px;
@@ -11922,7 +11922,7 @@ body {
   color: #848896;
 }
 .section-event-detail .card-price {
-  margin-left: 20px;
+  margin-left: 50px;
 }
 .section-event-detail .card-price h5, .section-event-detail .card-price .h5 {
   font-size: 18px;
@@ -11939,7 +11939,7 @@ body {
   font-weight: 600;
 }
 .section-event-detail .card-location {
-  margin-left: 20px;
+  margin-left: 50px;
 }
 .section-event-detail .card-location h5, .section-event-detail .card-location .h5 {
   font-size: 18px;
